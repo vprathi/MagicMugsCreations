@@ -1,0 +1,7 @@
+# OS / editor files
+.DS_Store
+Thumbs.db
+*.log
+
+# Dependencies (none needed for this static site, kept for future work)
+node_modules/
