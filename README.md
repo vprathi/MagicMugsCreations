@@ -5,7 +5,7 @@ Product customizer for the Coffee and Paper co. multi-photo family mug, modeled 
 ## What's in here
 
 - `index.html` — the whole customizer in one file. Open it in a browser, no build step and no server needed.
-- `.github/workflows/pages.yml` — publishes this site to GitHub Pages on every push to `main`.
+- `.gitignore` — ignores OS files and `node_modules/`.
 - `.nojekyll` — tells GitHub Pages to serve the files as-is.
 
 ## The mug
@@ -29,4 +29,4 @@ The sample photos in the slots are placeholders — replace all five with your o
 
 ## Live site
 
-After the first push, GitHub Pages is deployed automatically by the workflow in `.github/workflows/pages.yml`. If Pages isn't enabled yet for this repo, go to **Settings → Pages** and set the source to **GitHub Actions**. The live site will then be at `https://vprathi.github.io/MagicMugsCreations/`.
+To turn it on, go to **Settings → Pages** and set the source to **Deploy from a branch**, branch `main`, folder `/ (root)`. The live site will then be at `https://vprathi.github.io/MagicMugsCreations/`.
